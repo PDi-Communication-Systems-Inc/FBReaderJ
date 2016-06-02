@@ -212,7 +212,7 @@ public class Style {
 
     public static int getBackground(int style) {
 
-        if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
+        if(Build.VERSION.SDK_INT >= 19) {
 
             switch (style) {
 
