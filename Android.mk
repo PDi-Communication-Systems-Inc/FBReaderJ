@@ -50,8 +50,7 @@ LOCAL_AAPT_FLAGS := --generate-dependencies --auto-add-overlay --extra-packages 
 
 include $(BUILD_PACKAGE)
 
-LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES := android-support-v4:libs/android-support-v4.jar \
-					httpmime:libs/httpmime-4.2.5.jar \
+LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES := httpmime:libs/httpmime-4.2.5.jar \
 					json-simple:libs/json-simple-1.1.1.jar \
 					LingvoIntegration:libs/LingvoIntegration_2.5.2.12.jar \
 					nanohttpd:libs/nanohttpd-2.0.5.jar \
