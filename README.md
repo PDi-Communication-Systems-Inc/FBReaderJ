@@ -1,0 +1,1 @@
+Again this is a repository that cannot be built from within the AOSP build system due to C++ STL dependencies (at least at this time) and how it ties into the AIDL files. In Marshmallow, it is possible to specify a NDK C++ STL library to use that should work around this. 
